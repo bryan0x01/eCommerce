@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Essentials | Contact</title>
+
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="nav-wrapper teal darken-3">
+    <div class="container nav-content">
+      <a href="index.html" class="brand-logo">Campus Essentials</a>
+      <ul class="right nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container contact-page">
+    <section class="page-header">
+      <h1>Contact Us</h1>
+      <p>Questions about products, bundles, or orders? Send us a message.</p>
+    </section>
+
+    <form id="contact-form" class="contact-form" novalidate>
+      <div class="row">
+        <div class="input-field col s12 m6">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <div class="input-field col s12 m6">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12 m6">
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option value="question">Product Question</option>
+            <option value="bundle">Bundle Request</option>
+            <option value="order">Order Help</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="input-field col s12 m6">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="materialize-textarea"></textarea>
+        </div>
+      </div>
+
+      <button type="submit" class="btn">Send Message</button>
+      <p id="contact-message" class="info-text"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer teal darken-4">
+    <div class="container footer-content">
+      <div class="footer-column">
+        <h5 class="white-text">Campus Essentials</h5>
+        <p class="grey-text text-lighten-4">
+          Everyday items that help you study better, stay organized, and feel at home on campus.
+        </p>
+      </div>
+      <div class="footer-column">
+        <h5 class="white-text">Stay Connected</h5>
+        <ul class="social-links">
+          <li><a class="grey-text text-lighten-3" href="https://instagram.com">Instagram</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://tiktok.com">TikTok</a></li>
+          <li><a class="grey-text text-lighten-3" href="mailto:youremail@example.com">Email Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span class="grey-text text-lighten-4">© 2025 Campus Essentials</span>
+      </div>
+    </div>
+  </footer>
+
+    <script src="materialize/js/materialize.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Classic College Notebook Pack",
+    "price": 12.99,
+    "description": "Set of 3 lined notebooks for daily class notes.",
+    "image": "images/notebook.jpg",
+    "category": "study"
+  },
+  {
+    "id": 2,
+    "name": "Weekly Study Planner",
+    "price": 9.99,
+    "description": "Simple planner to track assignments and exams.",
+    "image": "images/planner.png",
+    "category": "study"
+  },
+  {
+    "id": 3,
+    "name": "Highlighter and Pen Set",
+    "price": 7.49,
+    "description": "Colorful markers and pens for note taking.",
+    "image": "images/H-pen.webp",
+    "category": "study"
+  },
+  {
+    "id": 4,
+    "name": "Campus Wireless Headphones",
+    "price": 39.99,
+    "description": "Comfortable wireless headphones for study sessions.",
+    "image": "images/headphones.webp",
+    "category": "tech"
+  },
+  {
+    "id": 5,
+    "name": "USB Flash Drive 64GB",
+    "price": 14.99,
+    "description": "Portable storage for projects and presentations.",
+    "image": "images/fdrive.jpg",
+    "category": "tech"
+  },
+  {
+    "id": 6,
+    "name": "Laptop Stand",
+    "price": 29.99,
+    "description": "Raises your laptop to a more comfortable height.",
+    "image": "images/stand.jpg",
+    "category": "tech"
+  },
+  {
+    "id": 7,
+    "name": "Campus Backpack",
+    "price": 49.99,
+    "description": "Durable backpack with room for books and laptop.",
+    "image": "images/backpack.jpg",
+    "category": "organization"
+  },
+  {
+    "id": 8,
+    "name": "Desk Organizer Tray",
+    "price": 15.99,
+    "description": "Holds pens, sticky notes, and small items on your desk.",
+    "image": "images/org.webp",
+    "category": "organization"
+  },
+  {
+    "id": 9,
+    "name": "Cable Organizer Clips",
+    "price": 8.99,
+    "description": "Keeps your charging cables neat and easy to reach.",
+    "image": "images/cable-org.webp",
+    "category": "organization"
+  },
+  {
+    "id": 10,
+    "name": "LED Strip Lights",
+    "price": 24.99,
+    "description": "Soft LED lights to add color to your dorm room.",
+    "image": "images/lef.webp",
+    "category": "dorm"
+  },
+  {
+    "id": 11,
+    "name": "Cozy Throw Pillow",
+    "price": 19.99,
+    "description": "Simple pillow that adds comfort to your bed or chair.",
+    "image": "images/pillow.jpg",
+    "category": "dorm"
+  },
+  {
+    "id": 12,
+    "name": "Soft Fleece Blanket",
+    "price": 27.99,
+    "description": "Lightweight blanket for late-night study sessions.",
+    "image": "images/blanket.jpg",
+    "category": "dorm"
+  }
+]
