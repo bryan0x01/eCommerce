@@ -50,7 +50,7 @@ main,
 }
 
 .hero-image {
-  background-image: url("../images/studying.jpg");
+  background-image: url("/images/studying.jpg");
   background-size: cover;
   background-position: center;
   height: 230px;
@@ -309,4 +309,55 @@ main,
   .footer-content {
     flex-direction: row;
   }
+}
+
+/* --- Small visual polish --- */
+
+.hero-section {
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.hero-content {
+  padding: 2rem;
+}
+
+.benefits-grid article,
+.category-card,
+.product-card,
+.contact-form {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Make buttons feel more clickable */
+.btn {
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* Contact page layout */
+.contact-page {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.contact-form {
+  padding: 1.5rem;
+  background-color: #ffffff;
+}
+
+/* Spacing between sections */
+.page-header {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Slightly larger headings */
+.page-header h1,
+.hero-content h1 {
+  letter-spacing: 0.02em;
 }

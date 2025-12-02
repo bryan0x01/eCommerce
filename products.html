@@ -10,6 +10,7 @@
 </head>
 <body>
 
+  <!-- nav bar -->
   <nav class="nav-wrapper teal darken-3">
     <div class="container nav-content">
       <a href="index.html" class="brand-logo">Campus Essentials</a>
@@ -21,12 +22,14 @@
     </div>
   </nav>
 
+  <!-- header -->
   <main class="container products-page">
     <section class="page-header">
       <h1>Products</h1>
       <p>Browse campus essentials for study, tech, organization, and dorm comfort.</p>
     </section>
 
+    <!-- filters -->
     <section class="filters">
       <div class="filter-group">
         <label for="filter-category">Category</label>
@@ -39,6 +42,7 @@
         </select>
       </div>
 
+      <!-- price filter -->
       <div class="filter-group">
         <label for="sort-price">Sort by price</label>
         <select id="sort-price">
@@ -48,16 +52,19 @@
         </select>
       </div>
 
+      <!-- buttons -->
       <div class="filter-buttons">
         <button id="apply-filters" class="btn">Apply</button>
         <button id="reset-filters" class="btn grey lighten-1 black-text">Reset</button>
       </div>
     </section>
 
+
     <section id="products-list" class="products-grid"></section>
     <p id="products-message" class="info-text"></p>
   </main>
 
+  <!-- footer -->
   <footer class="site-footer teal darken-4">
     <div class="container footer-content">
       <div class="footer-column">
